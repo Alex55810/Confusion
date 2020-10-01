@@ -41,11 +41,11 @@ export class DishdetailComponent implements OnInit {
 
   validationMessages = {
     'author': {
-      'required':      'Author Name is required.',
+      'required':      'Author Name is required. - ConfusionAuthor',
       'minlength':     'Author Name must be at least 2 characters long.',
     },
     'comment': {
-      'required':      'Comment is required.',
+      'required':      'Comment is required. - Comment Something',
     }
   };
 
